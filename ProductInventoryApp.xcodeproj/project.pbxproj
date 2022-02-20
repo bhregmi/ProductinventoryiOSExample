@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01EF323924B205ED00C36837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF323824B205ED00C36837 /* AppDelegate.swift */; };
+		01EF323B24B205ED00C36837 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF323A24B205ED00C36837 /* SceneDelegate.swift */; };
+		01EF323D24B205ED00C36837 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF323C24B205ED00C36837 /* ContentView.swift */; };
+		01EF323F24B205EE00C36837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01EF323E24B205EE00C36837 /* Assets.xcassets */; };
+		01EF324224B205EE00C36837 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01EF324124B205EE00C36837 /* Preview Assets.xcassets */; };
+		01EF324524B205EE00C36837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01EF324324B205EE00C36837 /* LaunchScreen.storyboard */; };
+		01EF325124B2063700C36837 /* LoginUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF324D24B2063700C36837 /* LoginUser.swift */; };
+		01EF325224B2063700C36837 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF324E24B2063700C36837 /* LoginView.swift */; };
+		01EF325324B2063700C36837 /* LandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF324F24B2063700C36837 /* LandingPageView.swift */; };
+		01EF325424B2063700C36837 /* LoginResponseVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF325024B2063700C36837 /* LoginResponseVM.swift */; };
+		01EF327D24B2067300C36837 /* ProductInventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF325624B2067300C36837 /* ProductInventory.swift */; };
+		01EF327E24B2067300C36837 /* ProductInventoryFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF325724B2067300C36837 /* ProductInventoryFormView.swift */; };
+		01EF327F24B2067300C36837 /* ProductInventoryCustomerListSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF325824B2067300C36837 /* ProductInventoryCustomerListSelectionView.swift */; };
+		01EF328024B2067300C36837 /* ProductInventoryVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF325924B2067300C36837 /* ProductInventoryVM.swift */; };
+		01EF328124B2067300C36837 /* ProductInventoryCombineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF325A24B2067300C36837 /* ProductInventoryCombineView.swift */; };
+		01EF328224B2067300C36837 /* ProductInventoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF325B24B2067300C36837 /* ProductInventoryListView.swift */; };
+		01EF328324B2067300C36837 /* ProductInventoryFuelNameRateListSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF325C24B2067300C36837 /* ProductInventoryFuelNameRateListSelectionView.swift */; };
+		01EF328424B2067300C36837 /* Date + Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF325F24B2067300C36837 /* Date + Helper.swift */; };
+		01EF328524B2067300C36837 /* SwiftUI + UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF326024B2067300C36837 /* SwiftUI + UICollectionView.swift */; };
+		01EF328624B2067300C36837 /* SegmentControlMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF326124B2067300C36837 /* SegmentControlMenu.swift */; };
+		01EF328724B2067300C36837 /* CalendarDateCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF326224B2067300C36837 /* CalendarDateCollectionView.swift */; };
+		01EF328824B2067300C36837 /* CalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF326324B2067300C36837 /* CalendarManager.swift */; };
+		01EF328924B2067300C36837 /* PageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF326524B2067300C36837 /* PageManager.swift */; };
+		01EF328A24B2067300C36837 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF326624B2067300C36837 /* CalendarCell.swift */; };
+		01EF328B24B2067300C36837 /* PendantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF326724B2067300C36837 /* PendantView.swift */; };
+		01EF328C24B2067300C36837 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF326824B2067300C36837 /* PageViewController.swift */; };
+		01EF328D24B2067300C36837 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF326924B2067300C36837 /* CalendarView.swift */; };
+		01EF328E24B2067300C36837 /* CalendarWeekBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF326A24B2067300C36837 /* CalendarWeekBar.swift */; };
+		01EF328F24B2067300C36837 /* CalendarToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF326B24B2067300C36837 /* CalendarToolBar.swift */; };
+		01EF329024B2067300C36837 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF326C24B2067300C36837 /* PageView.swift */; };
+		01EF329124B2067300C36837 /* ProductNameRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF326E24B2067300C36837 /* ProductNameRate.swift */; };
+		01EF329224B2067300C36837 /* ProductNameRateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF326F24B2067300C36837 /* ProductNameRateListView.swift */; };
+		01EF329324B2067300C36837 /* ProductNameRateFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF327024B2067300C36837 /* ProductNameRateFormView.swift */; };
+		01EF329424B2067300C36837 /* DoubleFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF327124B2067300C36837 /* DoubleFormatter.swift */; };
+		01EF329524B2067300C36837 /* ProductNameRateCombineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF327224B2067300C36837 /* ProductNameRateCombineView.swift */; };
+		01EF329624B2067300C36837 /* ProductNameRateVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF327324B2067300C36837 /* ProductNameRateVM.swift */; };
+		01EF329724B2067300C36837 /* CustomerPanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF327524B2067300C36837 /* CustomerPanListView.swift */; };
+		01EF329824B2067300C36837 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF327624B2067300C36837 /* Customer.swift */; };
+		01EF329924B2067300C36837 /* CustomerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF327724B2067300C36837 /* CustomerVM.swift */; };
+		01EF329A24B2067300C36837 /* CustomerFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF327824B2067300C36837 /* CustomerFormView.swift */; };
+		01EF329B24B2067300C36837 /* CustomerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF327924B2067300C36837 /* CustomerListView.swift */; };
+		01EF329C24B2067300C36837 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF327A24B2067300C36837 /* MockData.swift */; };
+		01EF329D24B2067300C36837 /* CustomerCombineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF327B24B2067300C36837 /* CustomerCombineView.swift */; };
+		01EF329E24B2067300C36837 /* TestCustomerDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF327C24B2067300C36837 /* TestCustomerDestination.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01EF323524B205ED00C36837 /* ProductInventoryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductInventoryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01EF323824B205ED00C36837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01EF323A24B205ED00C36837 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		01EF323C24B205ED00C36837 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		01EF323E24B205EE00C36837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01EF324124B205EE00C36837 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01EF324424B205EE00C36837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01EF324624B205EE00C36837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01EF324D24B2063700C36837 /* LoginUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginUser.swift; sourceTree = "<group>"; };
+		01EF324E24B2063700C36837 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		01EF324F24B2063700C36837 /* LandingPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingPageView.swift; sourceTree = "<group>"; };
+		01EF325024B2063700C36837 /* LoginResponseVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponseVM.swift; sourceTree = "<group>"; };
+		01EF325624B2067300C36837 /* ProductInventory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductInventory.swift; sourceTree = "<group>"; };
+		01EF325724B2067300C36837 /* ProductInventoryFormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductInventoryFormView.swift; sourceTree = "<group>"; };
+		01EF325824B2067300C36837 /* ProductInventoryCustomerListSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductInventoryCustomerListSelectionView.swift; sourceTree = "<group>"; };
+		01EF325924B2067300C36837 /* ProductInventoryVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductInventoryVM.swift; sourceTree = "<group>"; };
+		01EF325A24B2067300C36837 /* ProductInventoryCombineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductInventoryCombineView.swift; sourceTree = "<group>"; };
+		01EF325B24B2067300C36837 /* ProductInventoryListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductInventoryListView.swift; sourceTree = "<group>"; };
+		01EF325C24B2067300C36837 /* ProductInventoryFuelNameRateListSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductInventoryFuelNameRateListSelectionView.swift; sourceTree = "<group>"; };
+		01EF325F24B2067300C36837 /* Date + Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date + Helper.swift"; sourceTree = "<group>"; };
+		01EF326024B2067300C36837 /* SwiftUI + UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftUI + UICollectionView.swift"; sourceTree = "<group>"; };
+		01EF326124B2067300C36837 /* SegmentControlMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentControlMenu.swift; sourceTree = "<group>"; };
+		01EF326224B2067300C36837 /* CalendarDateCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarDateCollectionView.swift; sourceTree = "<group>"; };
+		01EF326324B2067300C36837 /* CalendarManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarManager.swift; sourceTree = "<group>"; };
+		01EF326524B2067300C36837 /* PageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageManager.swift; sourceTree = "<group>"; };
+		01EF326624B2067300C36837 /* CalendarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		01EF326724B2067300C36837 /* PendantView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendantView.swift; sourceTree = "<group>"; };
+		01EF326824B2067300C36837 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		01EF326924B2067300C36837 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		01EF326A24B2067300C36837 /* CalendarWeekBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarWeekBar.swift; sourceTree = "<group>"; };
+		01EF326B24B2067300C36837 /* CalendarToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarToolBar.swift; sourceTree = "<group>"; };
+		01EF326C24B2067300C36837 /* PageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		01EF326E24B2067300C36837 /* ProductNameRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductNameRate.swift; sourceTree = "<group>"; };
+		01EF326F24B2067300C36837 /* ProductNameRateListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductNameRateListView.swift; sourceTree = "<group>"; };
+		01EF327024B2067300C36837 /* ProductNameRateFormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductNameRateFormView.swift; sourceTree = "<group>"; };
+		01EF327124B2067300C36837 /* DoubleFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleFormatter.swift; sourceTree = "<group>"; };
+		01EF327224B2067300C36837 /* ProductNameRateCombineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductNameRateCombineView.swift; sourceTree = "<group>"; };
+		01EF327324B2067300C36837 /* ProductNameRateVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductNameRateVM.swift; sourceTree = "<group>"; };
+		01EF327524B2067300C36837 /* CustomerPanListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerPanListView.swift; sourceTree = "<group>"; };
+		01EF327624B2067300C36837 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		01EF327724B2067300C36837 /* CustomerVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerVM.swift; sourceTree = "<group>"; };
+		01EF327824B2067300C36837 /* CustomerFormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerFormView.swift; sourceTree = "<group>"; };
+		01EF327924B2067300C36837 /* CustomerListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerListView.swift; sourceTree = "<group>"; };
+		01EF327A24B2067300C36837 /* MockData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		01EF327B24B2067300C36837 /* CustomerCombineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerCombineView.swift; sourceTree = "<group>"; };
+		01EF327C24B2067300C36837 /* TestCustomerDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCustomerDestination.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01EF323224B205ED00C36837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01EF322C24B205ED00C36837 = {
+			isa = PBXGroup;
+			children = (
+				01EF323724B205ED00C36837 /* ProductInventoryApp */,
+				01EF323624B205ED00C36837 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01EF323624B205ED00C36837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01EF323524B205ED00C36837 /* ProductInventoryApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01EF323724B205ED00C36837 /* ProductInventoryApp */ = {
+			isa = PBXGroup;
+			children = (
+				01EF324624B205EE00C36837 /* Info.plist */,
+				01EF323824B205ED00C36837 /* AppDelegate.swift */,
+				01EF323C24B205ED00C36837 /* ContentView.swift */,
+				01EF323A24B205ED00C36837 /* SceneDelegate.swift */,
+				01EF323E24B205EE00C36837 /* Assets.xcassets */,
+				01EF325D24B2067300C36837 /* Calendar */,
+				01EF327424B2067300C36837 /* Customer */,
+				01EF325524B2067300C36837 /* ProductInventory */,
+				01EF326D24B2067300C36837 /* ProductNameRate */,
+				01EF324C24B2063700C36837 /* Users */,
+				01EF324324B205EE00C36837 /* LaunchScreen.storyboard */,
+				01EF324024B205EE00C36837 /* Preview Content */,
+			);
+			path = ProductInventoryApp;
+			sourceTree = "<group>";
+		};
+		01EF324024B205EE00C36837 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				01EF324124B205EE00C36837 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01EF324C24B2063700C36837 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				01EF324D24B2063700C36837 /* LoginUser.swift */,
+				01EF324E24B2063700C36837 /* LoginView.swift */,
+				01EF324F24B2063700C36837 /* LandingPageView.swift */,
+				01EF325024B2063700C36837 /* LoginResponseVM.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		01EF325524B2067300C36837 /* ProductInventory */ = {
+			isa = PBXGroup;
+			children = (
+				01EF325624B2067300C36837 /* ProductInventory.swift */,
+				01EF325724B2067300C36837 /* ProductInventoryFormView.swift */,
+				01EF325824B2067300C36837 /* ProductInventoryCustomerListSelectionView.swift */,
+				01EF325924B2067300C36837 /* ProductInventoryVM.swift */,
+				01EF325A24B2067300C36837 /* ProductInventoryCombineView.swift */,
+				01EF325B24B2067300C36837 /* ProductInventoryListView.swift */,
+				01EF325C24B2067300C36837 /* ProductInventoryFuelNameRateListSelectionView.swift */,
+			);
+			path = ProductInventory;
+			sourceTree = "<group>";
+		};
+		01EF325D24B2067300C36837 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				01EF325E24B2067300C36837 /* CalendarController */,
+				01EF326424B2067300C36837 /* CalendarViews */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		01EF325E24B2067300C36837 /* CalendarController */ = {
+			isa = PBXGroup;
+			children = (
+				01EF325F24B2067300C36837 /* Date + Helper.swift */,
+				01EF326024B2067300C36837 /* SwiftUI + UICollectionView.swift */,
+				01EF326124B2067300C36837 /* SegmentControlMenu.swift */,
+				01EF326224B2067300C36837 /* CalendarDateCollectionView.swift */,
+				01EF326324B2067300C36837 /* CalendarManager.swift */,
+			);
+			path = CalendarController;
+			sourceTree = "<group>";
+		};
+		01EF326424B2067300C36837 /* CalendarViews */ = {
+			isa = PBXGroup;
+			children = (
+				01EF326524B2067300C36837 /* PageManager.swift */,
+				01EF326624B2067300C36837 /* CalendarCell.swift */,
+				01EF326724B2067300C36837 /* PendantView.swift */,
+				01EF326824B2067300C36837 /* PageViewController.swift */,
+				01EF326924B2067300C36837 /* CalendarView.swift */,
+				01EF326A24B2067300C36837 /* CalendarWeekBar.swift */,
+				01EF326B24B2067300C36837 /* CalendarToolBar.swift */,
+				01EF326C24B2067300C36837 /* PageView.swift */,
+			);
+			path = CalendarViews;
+			sourceTree = "<group>";
+		};
+		01EF326D24B2067300C36837 /* ProductNameRate */ = {
+			isa = PBXGroup;
+			children = (
+				01EF326E24B2067300C36837 /* ProductNameRate.swift */,
+				01EF326F24B2067300C36837 /* ProductNameRateListView.swift */,
+				01EF327024B2067300C36837 /* ProductNameRateFormView.swift */,
+				01EF327124B2067300C36837 /* DoubleFormatter.swift */,
+				01EF327224B2067300C36837 /* ProductNameRateCombineView.swift */,
+				01EF327324B2067300C36837 /* ProductNameRateVM.swift */,
+			);
+			path = ProductNameRate;
+			sourceTree = "<group>";
+		};
+		01EF327424B2067300C36837 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				01EF327524B2067300C36837 /* CustomerPanListView.swift */,
+				01EF327624B2067300C36837 /* Customer.swift */,
+				01EF327724B2067300C36837 /* CustomerVM.swift */,
+				01EF327824B2067300C36837 /* CustomerFormView.swift */,
+				01EF327924B2067300C36837 /* CustomerListView.swift */,
+				01EF327A24B2067300C36837 /* MockData.swift */,
+				01EF327B24B2067300C36837 /* CustomerCombineView.swift */,
+				01EF327C24B2067300C36837 /* TestCustomerDestination.swift */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01EF323424B205ED00C36837 /* ProductInventoryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01EF324924B205EE00C36837 /* Build configuration list for PBXNativeTarget "ProductInventoryApp" */;
+			buildPhases = (
+				01EF323124B205ED00C36837 /* Sources */,
+				01EF323224B205ED00C36837 /* Frameworks */,
+				01EF323324B205ED00C36837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProductInventoryApp;
+			productName = ProductInventoryApp;
+			productReference = 01EF323524B205ED00C36837 /* ProductInventoryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01EF322D24B205ED00C36837 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Bhesh Raj Regmi";
+				TargetAttributes = {
+					01EF323424B205ED00C36837 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 01EF323024B205ED00C36837 /* Build configuration list for PBXProject "ProductInventoryApp" */;
+			compatibilityVersion = "Xcode 11.4";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01EF322C24B205ED00C36837;
+			productRefGroup = 01EF323624B205ED00C36837 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01EF323424B205ED00C36837 /* ProductInventoryApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01EF323324B205ED00C36837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01EF324524B205EE00C36837 /* LaunchScreen.storyboard in Resources */,
+				01EF324224B205EE00C36837 /* Preview Assets.xcassets in Resources */,
+				01EF323F24B205EE00C36837 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01EF323124B205ED00C36837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01EF327D24B2067300C36837 /* ProductInventory.swift in Sources */,
+				01EF329824B2067300C36837 /* Customer.swift in Sources */,
+				01EF329224B2067300C36837 /* ProductNameRateListView.swift in Sources */,
+				01EF328A24B2067300C36837 /* CalendarCell.swift in Sources */,
+				01EF329924B2067300C36837 /* CustomerVM.swift in Sources */,
+				01EF328D24B2067300C36837 /* CalendarView.swift in Sources */,
+				01EF328324B2067300C36837 /* ProductInventoryFuelNameRateListSelectionView.swift in Sources */,
+				01EF328024B2067300C36837 /* ProductInventoryVM.swift in Sources */,
+				01EF329624B2067300C36837 /* ProductNameRateVM.swift in Sources */,
+				01EF323924B205ED00C36837 /* AppDelegate.swift in Sources */,
+				01EF328124B2067300C36837 /* ProductInventoryCombineView.swift in Sources */,
+				01EF329024B2067300C36837 /* PageView.swift in Sources */,
+				01EF329524B2067300C36837 /* ProductNameRateCombineView.swift in Sources */,
+				01EF328C24B2067300C36837 /* PageViewController.swift in Sources */,
+				01EF328824B2067300C36837 /* CalendarManager.swift in Sources */,
+				01EF328E24B2067300C36837 /* CalendarWeekBar.swift in Sources */,
+				01EF329C24B2067300C36837 /* MockData.swift in Sources */,
+				01EF325324B2063700C36837 /* LandingPageView.swift in Sources */,
+				01EF328624B2067300C36837 /* SegmentControlMenu.swift in Sources */,
+				01EF329E24B2067300C36837 /* TestCustomerDestination.swift in Sources */,
+				01EF327E24B2067300C36837 /* ProductInventoryFormView.swift in Sources */,
+				01EF328424B2067300C36837 /* Date + Helper.swift in Sources */,
+				01EF329B24B2067300C36837 /* CustomerListView.swift in Sources */,
+				01EF323B24B205ED00C36837 /* SceneDelegate.swift in Sources */,
+				01EF329A24B2067300C36837 /* CustomerFormView.swift in Sources */,
+				01EF328224B2067300C36837 /* ProductInventoryListView.swift in Sources */,
+				01EF325124B2063700C36837 /* LoginUser.swift in Sources */,
+				01EF329324B2067300C36837 /* ProductNameRateFormView.swift in Sources */,
+				01EF325224B2063700C36837 /* LoginView.swift in Sources */,
+				01EF328524B2067300C36837 /* SwiftUI + UICollectionView.swift in Sources */,
+				01EF329724B2067300C36837 /* CustomerPanListView.swift in Sources */,
+				01EF329D24B2067300C36837 /* CustomerCombineView.swift in Sources */,
+				01EF328F24B2067300C36837 /* CalendarToolBar.swift in Sources */,
+				01EF325424B2063700C36837 /* LoginResponseVM.swift in Sources */,
+				01EF328924B2067300C36837 /* PageManager.swift in Sources */,
+				01EF327F24B2067300C36837 /* ProductInventoryCustomerListSelectionView.swift in Sources */,
+				01EF329424B2067300C36837 /* DoubleFormatter.swift in Sources */,
+				01EF328B24B2067300C36837 /* PendantView.swift in Sources */,
+				01EF328724B2067300C36837 /* CalendarDateCollectionView.swift in Sources */,
+				01EF329124B2067300C36837 /* ProductNameRate.swift in Sources */,
+				01EF323D24B205ED00C36837 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01EF324324B205EE00C36837 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01EF324424B205EE00C36837 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01EF324724B205EE00C36837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01EF324824B205EE00C36837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01EF324A24B205EE00C36837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ProductInventoryApp/Preview Content\"";
+				DEVELOPMENT_TEAM = XN76C88UKC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ProductInventoryApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brr.ProductInventoryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01EF324B24B205EE00C36837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ProductInventoryApp/Preview Content\"";
+				DEVELOPMENT_TEAM = XN76C88UKC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ProductInventoryApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brr.ProductInventoryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01EF323024B205ED00C36837 /* Build configuration list for PBXProject "ProductInventoryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01EF324724B205EE00C36837 /* Debug */,
+				01EF324824B205EE00C36837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01EF324924B205EE00C36837 /* Build configuration list for PBXNativeTarget "ProductInventoryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01EF324A24B205EE00C36837 /* Debug */,
+				01EF324B24B205EE00C36837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01EF322D24B205ED00C36837 /* Project object */;
+}
